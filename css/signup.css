@@ -1,0 +1,268 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #001e38;
+  color: #f2f2f2;
+  box-sizing: border-box;
+}
+
+.custom-shape-divider-bottom-1678957922 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1678957922 svg {
+  position: relative;
+  display: block;
+  width: calc(114% + 1.3px);
+  height: 155px;
+}
+
+.custom-shape-divider-bottom-1678957922 .shape-fill {
+  fill: #60f4a07d;
+}
+
+.custom-shape-divider-top-1678957997 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1678957997 svg {
+  position: relative;
+  display: block;
+  width: calc(133% + 1.3px);
+  height: 240px;
+}
+
+.custom-shape-divider-top-1678957997 .shape-fill {
+  fill: #60f4a07d;
+}
+
+.sign-up {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: fixed;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  background-color: #034762;
+  width: 400px;
+  height: 600px;
+  border-radius: 15px;
+  position: absolute;
+  box-shadow: 12px 16px 40px 0 black;
+}
+
+input {
+  width: 300px;
+  font-size: 20px;
+  padding: 5px;
+  margin: 5px;
+  outline: none;
+  background-color: transparent;
+  border: none;
+  border-bottom: #f2f2f2 1px solid;
+  color: #f2f2f2;
+  position: relative;
+}
+
+input:nth-last-child(1) {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+  color: #f2f2f2;
+  border: none;
+  cursor: pointer;
+}
+
+input:nth-last-child(1):hover {
+  color: #050901;
+}
+
+.move {
+  position: absolute;
+  left: 55px;
+  margin-top: 25px;
+  font-size: 20px;
+  transition: 0.6s;
+}
+
+.success {
+  border-bottom: 2px solid green;
+}
+
+.error {
+  border-bottom: 2px solid red;
+}
+
+.mmmm {
+  position: absolute;
+  left: 55px;
+  margin-top: 20px;
+  transform: translate(0, -20px);
+  font-size: 15px !important;
+  color: #60f4a0;
+}
+
+.loader:hover {
+  background-color: #60f4a0;
+  color: #050901;
+  box-shadow: 0 0 5px #60f4a0, 0 0 25px #60f4a0, 0 0 50px #60f4a0,
+    0 0 200px #60f4a0;
+}
+
+.loader {
+  margin-top: 20px;
+  margin-left: 10px;
+  position: relative;
+  width: 300px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #001e38;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+  color: #f2f2f2;
+  border: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.loader span {
+  position: absolute;
+  display: block;
+}
+
+.loader span:nth-child(1) {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 5px;
+  background: linear-gradient(90deg, transparent, #60f4a0);
+  animation: animate1 2s linear infinite;
+  animation-delay: 0s;
+}
+
+@keyframes animate1 {
+  0% {
+    left: -100%;
+  }
+  50%,
+  100% {
+    left: 100%;
+  }
+}
+
+.loader span:nth-child(3) {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 5px;
+  background: linear-gradient(270deg, transparent, #60f4a0);
+  animation: animate3 2s linear infinite;
+  animation-delay: 1s;
+}
+
+@keyframes animate3 {
+  0% {
+    right: -100%;
+  }
+  50%,
+  100% {
+    right: 100%;
+  }
+}
+
+.loader span:nth-child(2) {
+  top: -100%;
+  right: 0;
+  width: 5px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, #60f4a0);
+  animation: animate2 2s linear infinite;
+  animation-delay: 0.5s;
+}
+
+@keyframes animate2 {
+  0% {
+    top: -100%;
+  }
+  50%,
+  100% {
+    top: 100%;
+  }
+}
+
+.loader span:nth-child(4) {
+  bottom: -100%;
+  left: 0;
+  width: 5px;
+  height: 100%;
+  background: linear-gradient(360deg, transparent, #60f4a0);
+  animation: animate4 2s linear infinite;
+  animation-delay: 1.5s;
+}
+
+@keyframes animate4 {
+  0% {
+    bottom: -100%;
+  }
+  50%,
+  100% {
+    bottom: 100%;
+  }
+}
+
+.pa {
+  position: relative;
+}
+
+a {
+  position: absolute;
+  right: 50px;
+  color: white;
+}
+
+a:hover {
+  color: #60f4a0;
+}
+
+@media (max-width: 767px) {
+  .sign-up {
+    width: 320px;
+    height: 570px;
+  }
+  .move {
+    position: absolute;
+    left: 25px;
+    margin-top: 25px;
+    font-size: 15px;
+    transition: 0.6s;
+  }
+  input {
+    width: 250px;
+    font-size: 20px;
+    padding: 5px;
+    margin: 5px;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    border-bottom: #f2f2f2 1px solid;
+    color: #f2f2f2;
+    position: relative;
+  }
+}
