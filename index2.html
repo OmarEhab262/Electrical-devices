@@ -1,692 +1,982 @@
-<!DOCTYPE html>
-<html lang="en">
+body {
+  background: #001e38;
+}
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Home</title>
-</head>
+html {
+  scroll-behavior: smooth;
+}
 
-<body>
-    <div class="header" id="HOME">
-        <div class="container">
-            <img src="images/logo.png" alt="" class="log">
-            <div class="link">
-                <span class="icon">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </span>
-                <ul class="menu-slide">
-                    <li> <a href="#" class="cont"><i class="fa-solid fa-cart-shopping"></i></a></li>
-                    <div class=" dddds" style="position:absolute;"></div>
-                    <li><a href="#HOME">HOME</a></li>
-                    <li><a href="#ABOUT">ABOUT</a>
-                    </li>
-                    <li><a href="#FEATURES"> FEATURES</a>
-                    </li>
-                    <li><a href="#ONLINE">ONLINE</a></li>
-                    <li><a href="#NEWS">NEWS</a></li>
-                    <li><a href="#CONTACT">CONTACT</a></li>
-                </ul>
-            </div>
-            <div class="link-show">
-                <a href="#HOME">HOME</a>
-                <a href="#ABOUT">ABOUT</a>
-                <a href="#FEATURES">FEATURES</a>
-                <a href="#ONLINE">ONLINE</a>
-                <a href="#NEWS">NEWS</a>
-                <a href="#CONTACT">CONTACT</a>
-                <a href="#" class="contt" style="position: relative;"><i class="fa-solid fa-cart-shopping"></i></a>
-                <div class="cooo" style="position:absolute;"></div>
-            </div>
-        </div>
-    </div>
-    <div class="landing">
-        <div class="custom-shape-divider-bottom-1678984849">
-            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
-                preserveAspectRatio="none">
-                <path
-                    d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
-                    class="shape-fill"></path>
-            </svg>
-        </div>
-        <div class="custom-shape-divider-bottom-1678987925">
-            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
-                preserveAspectRatio="none">
-                <path
-                    d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
-                    class="shape-fill"></path>
-            </svg>
-        </div>
-        <div class="intro-text">
-            <h1>Upgrade Your Life with the Latest and Greatest <span> Electronics</span></h1>
-            <p>From smartphones and laptops to gaming consoles and smart home devices, the website has something for
-                everyone.
-            </p>
-        </div>
-        <img src="images/iwatch5.png" alt="" class="imgg" id="myImage">
+.container {
+  padding: 0 15px;
+  width: 700px;
+  margin: auto;
+  background-color: #60f4a0;
+  border-radius: 10px;
+}
 
-    </div>
-    <div class="ABOUT" id="ABOUT">
-        <div class="container">
-            <div class="custom-shape-divider-top-1679078634">
-                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
-                    preserveAspectRatio="none">
-                    <path
-                        d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
-                        class="shape-fill"></path>
-                </svg>
-            </div>
+.uuu {
+  background-color: #ddd;
+  color: #001e38;
+  width: 20px;
+  border-radius: 15px;
+  padding: 10px;
+  right: 1%;
+  height: 20px;
+  position: fixed;
+  text-align: center;
+  cursor: pointer;
+  animation: up 1.5s linear infinite;
+  display: none;
+  z-index: 2;
+}
 
-            <div class="main-title">
-                <h1>ABOUT</h1>
-                <p>Looking for a one-stop-shop for all your electronic needs? Look no further than this website! With an
-                    extensive selection of top-of-the-line devices, from smartphones to tablets and more, you're sure to
-                    find what you're looking for. Plus,
-                    enjoy unbeatable prices and exceptional customer service. Shop now!</p>
-            </div>
-            <div class="cards-About">
-                <div class="card">
-                    <img src="images/1.jpg" alt="">
-                    <p>Our electronic devices are crafted with superior quality from scratch, ensuring top-notch
-                        performance and reliability. Buy with confidence today.</p>
-                </div>
-                <div class="card">
-                    <img src="images/2.jpg" alt="">
-                    <p>We prioritize the safe and reliable delivery of our products, ensuring they arrive at your
-                        doorstep in perfect condition.</p>
-                </div>
-                <div class="card">
-                    <img src="images/3.jpg" alt="">
-                    <p>Our diverse range of products can be found both in physical shopping centers and online, offering
-                        you the ultimate convenience in shopping.</p>
-                </div>
-            </div>
+.uuu:hover {
+  background-color: #111;
+  color: white;
+}
 
-        </div>
-    </div>
-    <div class="FEATURES" id="FEATURES">
-        <div class="container">
-            <div class="main-title">
-                <h1>FEATURES</h1>
-            </div>
-            <div class="card-FEATURES">
-                <div class="carddd">
-                    <a href="#"><i class="fa-solid fa-rocket"></i></a>
-                    <p>Experience lightning-fast delivery of your electronic products with our reliable shipping
-                        services. Get your gadgets delivered in no time!</p>
-                </div>
-                <div class="carddd">
-                    <a href="#"><i class="fa-solid fa-truck-fast"></i></a>
-                    <p>Say goodbye to the hassle of shopping at physical stores. Buy electronic products online with
-                        ease from the comfort ofyour home.</p>
-                </div>
-                <div class="carddd">
-                    <a href="#"><i class="fa-solid fa-bolt"></i></a>
-                    <p>Discover the latest in electronic products with innovative features that enhance your daily life.
-                        Explore our wide range of cutting-edge gadgets today</p>
-                </div>
-                <div class="carddd">
-                    <a href="#"><i class="fa-solid fa-shield-halved"></i></a>
-                    <p>Shop with confidence knowing that our trusted reputation guarantees the authenticity and quality
-                        of our electronic products. Your satisfaction is our top priority.</p>
-                </div>
-                <div class="carddd">
-                    <a href="#"><i class="fa-solid fa-hand-holding-dollar"></i></a>
-                    <p>Get the best bang for your buck with unbeatable prices on high-quality electronic products. Check
-                        out our discounts and special offers today.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="ONLINE" id="ONLINE">
-        <div class="container">
-            <div class="main-title">
-                <h1>ONLINE</h1>
-            </div>
-            <div class="Kinds">
-                <div class="Lists">
-                    <div class="zero"> All</div>
-                    <div class="one"> Iphone</div>
-                    <div class="two"> Ipad</div>
-                    <div class="three">Imac</div>
-                    <div class="four"> Iwatch</div>
-                </div>
-                <div class="boxes oneee">
-                    <div class="box iphone">
-                        <div class="immm "> <img src="images/iphone.png" alt=""></div>
-                        <div class="titlee">
-                            <h2>iPhone 13, 128GB, Pink</h2>
-                        </div>
-                        <div class="info">
-                            <h3>$668</h3>
-                            <h4>Add to Cart</h4>
-                        </div>
-                    </div>
+@keyframes up {
+  0%,
+  100% {
+    top: 50%;
+  }
+  50% {
+    top: 43%;
+  }
+}
 
-                    <div class="box ipad">
-                        <div class="immm "> <img src="images/ipad.png" alt=""></div>
-                        <div class="titlee">
-                            <h2>Apple 2022 iPad Air</h2>
-                        </div>
-                        <div class="info">
-                            <h3>$509</h3>
-                            <h4>Add to Cart</h4>
-                        </div>
-                    </div>
-                    <div class="box imac">
-                        <div class="immm "> <img src="images/imac.png" alt="" style="width: 250px;"> </div>
-                        <div class="titlee">
-                            <h2>Apple 2020 MacBook Air</h2>
-                        </div>
-                        <div class="info">
-                            <h3>$1,393</h3>
-                            <h4>Add to Cart</h4>
-                        </div>
-                    </div>
-                    <div class="box iwatch">
-                        <div class="immm "> <img src="images/iwatch.png" alt=""> </div>
-                        <div class="titlee">
-                            <h2>Apple Watch Series 6 </h2>
-                        </div>
-                        <div class="info">
-                            <h3>$199</h3>
-                            <h4>Add to Cart</h4>
-                        </div>
-                    </div>
-                    <div class="box iphone">
-                        <div class="immm "> <img src="images/iphone1.png" alt=""></div>
-                        <div class="titlee">
-                            <h2>iPhone 13, 128GB, Pink</h2>
-                        </div>
-                        <div class="info">
-                            <h3>$668</h3>
-                            <h4>Add to Cart</h4>
-                        </div>
-                    </div>
+@media (max-width: 767px) {
+  .footer .container .butt {
+    justify-content: center !important;
+  }
+  .footer .container .top .right .logo img {
+    width: 250px !important;
+    margin-left: 25%;
+  }
+  .footer .container .top {
+    background-color: #001e38;
+    border-radius: 15px;
+    padding: 0 !important;
+    display: flex;
+    flex-direction: column !important;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    text-align: center;
+  }
+  .landing img {
+    width: 150px !important;
+    bottom: 0%;
+    right: 5%;
+  }
+  .container {
+    width: 90%;
+  }
+  .landing {
+    text-align: center;
+    padding-bottom: 25px;
+  }
+  .header .link {
+    display: none;
+  }
+  img {
+    width: 100px !important;
+  }
+  .header .link {
+    display: block;
+  }
+  .link-show {
+    display: none;
+  }
+  .landing .intro-text h1 {
+    font-size: 30px !important;
+    width: 80% !important;
+    padding-left: 25px;
+  }
+  .landing .intro-text h1 span {
+    font-size: 35px !important;
+  }
+  .landing .intro-text p {
+    font-size: 15px !important;
+    width: 350px !important;
+    padding-left: 25px;
+    z-index: 1;
+  }
+  .intro-text {
+    margin-left: 30px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    width: 700px !important;
+    margin-top: -205px;
+  }
+  .boxes .imac .immm img {
+    width: 250px !important;
+  }
+  .boxes .iwatch .immm img,
+  .boxes .ipad .immm img,
+  .boxes .iphone .immm img {
+    width: 150px !important;
+  }
+  .one,
+  .two,
+  .three,
+  .four,
+  .zero {
+    background-color: #001e38;
+    color: white;
+    border-radius: 20px;
+    padding: 5px !important;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: 10px;
+  }
+}
 
-                    <div class="box ipad">
-                        <div class="immm "> <img src="images/ipad1.png" alt=""></div>
-                        <div class="titlee">
-                            <h2>Apple 2022 iPad Air</h2>
-                        </div>
-                        <div class="info">
-                            <h3>$509</h3>
-                            <h4>Add to Cart</h4>
-                        </div>
-                    </div>
-                    <div class="box imac">
-                        <div class="immm "> <img src="images/imac1.png" alt="" style="width: 250px;"> </div>
-                        <div class="titlee">
-                            <h2>Apple 2020 MacBook Air</h2>
-                        </div>
-                        <div class="info">
-                            <h3>$1,393</h3>
-                            <h4>Add to Cart</h4>
-                        </div>
-                    </div>
-                    <div class="box iwatch">
-                        <div class="immm "> <img src="images/iwatch1.png" alt=""> </div>
-                        <div class="titlee">
-                            <h2>Apple Watch Series 6 </h2>
-                        </div>
-                        <div class="info">
-                            <h3>$199</h3>
-                            <h4>Add to Cart</h4>
-                        </div>
-                    </div>
-                    <div class="box imac">
-                        <div class="immm "> <img src="images/imac2.png" alt="" style="width: 250px;"> </div>
-                        <div class="titlee">
-                            <h2>Apple 2020 MacBook Air</h2>
-                        </div>
-                        <div class="info">
-                            <h3>$1,393</h3>
-                            <h4>Add to Cart</h4>
-                        </div>
-                    </div>
+@media (min-width: 768px) {
+  .header .link {
+    display: block;
+  }
+  .link-show {
+    display: none;
+  }
+}
 
-                </div>
-                <div class="boxes twoo">
-                    <div class="box iwatch">
-                        <div class="immm "> <img src="images/iwatch2.png" alt=""> </div>
-                        <div class="titlee">
-                            <h2>Apple Watch Series 6 </h2>
-                        </div>
-                        <div class="info">
-                            <h3>$199</h3>
-                            <h4>Add to Cart</h4>
-                        </div>
-                    </div>
-                    <div class="box iphone">
-                        <div class="immm "> <img src="images/iphone2.png" alt=""></div>
-                        <div class="titlee">
-                            <h2>iPhone 13, 128GB, Pink</h2>
-                        </div>
-                        <div class="info">
-                            <h3>$668</h3>
-                            <h4>Add to Cart</h4>
-                        </div>
-                    </div>
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+  .header .link {
+    display: none;
+  }
+  .link-show {
+    display: block;
+  }
+}
 
-                    <div class="box ipad">
-                        <div class="immm "> <img src="images/ipad2.png" alt=""></div>
-                        <div class="titlee">
-                            <h2>Apple 2022 iPad Air</h2>
-                        </div>
-                        <div class="info">
-                            <h3>$509</h3>
-                            <h4>Add to Cart</h4>
-                        </div>
-                    </div>
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+  .header .link {
+    display: none;
+  }
+}
 
-                    <div class="box iwatch">
-                        <div class="immm "> <img src="images/iwatch3.png" alt=""> </div>
-                        <div class="titlee">
-                            <h2>Apple Watch Series 6 </h2>
-                        </div>
-                        <div class="info">
-                            <h3>$199</h3>
-                            <h4>Add to Cart</h4>
-                        </div>
-                    </div>
-                    <div class="box iphone">
-                        <div class="immm "> <img src="images/iphone3.png" alt=""></div>
-                        <div class="titlee">
-                            <h2>iPhone 13, 128GB, Pink</h2>
-                        </div>
-                        <div class="info">
-                            <h3>$668</h3>
-                            <h4>Add to Cart</h4>
-                        </div>
-                    </div>
+.header {
+  padding: 20px;
+}
 
-                    <div class="box ipad">
-                        <div class="immm "> <img src="images/ipad3.png" alt=""></div>
-                        <div class="titlee">
-                            <h2>Apple 2022 iPad Air</h2>
-                        </div>
-                        <div class="info">
-                            <h3>$509</h3>
-                            <h4>Add to Cart</h4>
-                        </div>
-                    </div>
-                    <div class="box imac">
-                        <div class="immm "> <img src="images/imac3.png" alt="" style="width: 250px;"> </div>
-                        <div class="titlee">
-                            <h2>Apple 2020 MacBook Air</h2>
-                        </div>
-                        <div class="info">
-                            <h3>$1,393</h3>
-                            <h4>Add to Cart</h4>
-                        </div>
-                    </div>
-                    <div class="box iwatch">
-                        <div class="immm "> <img src="images/iwatch4.png" alt=""> </div>
-                        <div class="titlee">
-                            <h2>Apple Watch Series 6 </h2>
-                        </div>
-                        <div class="info">
-                            <h3>$199</h3>
-                            <h4>Add to Cart</h4>
-                        </div>
-                    </div>
-                    <div class="box imac">
-                        <div class="immm "> <img src="images/imac4.png" alt="" style="width: 250px;"> </div>
-                        <div class="titlee">
-                            <h2>Apple 2020 MacBook Air</h2>
-                        </div>
-                        <div class="info">
-                            <h3>$1,393</h3>
-                            <h4>Add to Cart</h4>
-                        </div>
-                    </div>
+.header img {
+  width: 150px;
+}
 
-                </div>
-                <div class="boxes threee">
-                    <div class="box ipad">
-                        <div class="immm "> <img src="images/ipad4.png" alt=""></div>
-                        <div class="titlee">
-                            <h2>Apple 2022 iPad Air</h2>
-                        </div>
-                        <div class="info">
-                            <h3>$509</h3>
-                            <h4>Add to Cart</h4>
-                        </div>
-                    </div>
-                    <div class="box iphone">
-                        <div class="immm "> <img src="images/iphone4.png" alt=""></div>
-                        <div class="titlee">
-                            <h2>iPhone 13, 128GB, Pink</h2>
-                        </div>
-                        <div class="info">
-                            <h3>$668</h3>
-                            <h4>Add to Cart</h4>
-                        </div>
-                    </div>
-                    <div class="box imac">
-                        <div class="immm "> <img src="images/imac5.png" alt="" style="width: 250px;"> </div>
-                        <div class="titlee">
-                            <h2>Apple 2020 MacBook Air</h2>
-                        </div>
-                        <div class="info">
-                            <h3>$1,393</h3>
-                            <h4>Add to Cart</h4>
-                        </div>
-                    </div>
-                    <div class="box iwatch">
-                        <div class="immm "> <img src="images/iwatch5.png" alt=""> </div>
-                        <div class="titlee">
-                            <h2>Apple Watch Series 6 </h2>
-                        </div>
-                        <div class="info">
-                            <h3>$199</h3>
-                            <h4>Add to Cart</h4>
-                        </div>
-                    </div>
-                    <div class="box iphone">
-                        <div class="immm "> <img src="images/iphone5.png" alt=""></div>
-                        <div class="titlee">
-                            <h2>iPhone 13, 128GB, Pink</h2>
-                        </div>
-                        <div class="info">
-                            <h3>$668</h3>
-                            <h4>Add to Cart</h4>
-                        </div>
-                    </div>
+.header .logo {
+  width: 60px;
+}
 
-                    <div class="box ipad">
-                        <div class="immm "> <img src="images/ipad5.png" alt=""></div>
-                        <div class="titlee">
-                            <h2>Apple 2022 iPad Air</h2>
-                        </div>
-                        <div class="info">
-                            <h3>$509</h3>
-                            <h4>Add to Cart</h4>
-                        </div>
-                    </div>
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
-                </div>
-                <div class="scroll">
-                    <div class="icon">
-                        <div class="ones">1</div>
-                        <div class="twos">2</div>
-                        <div class="threes">3</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="NEWS" id="NEWS">
-        <div class="container">
-            <div class="main-title">
-                <h1>NEWS</h1>
+.header .link:hover .icon span:nth-child(2) {
+  width: 100%;
+}
 
-                <p>Stay Ahead of the Game with Our Electronics Hub: Your Source for the Latest News, Devices, and
-                    Downloads. Explore Our Latest Innovations, and Keep Up-to-Date with Our Company's Developments in
-                    the World of Technology.!</p>
-            </div>
-            <div class="cards-About">
-                <div class="card">
-                    <img src="images/news1.png" alt="">
-                    <p>Exciting News for iPhone Fans: The Release of iPhone 15 is Set for May! Stay Tuned for the
-                        Official Launch Date and Get Ready to Experience the Latest Advancements in Apple Technology.
-                    </p>
-                    <div class="info">
-                        <div class="interaction">
-                            <hr>
-                            <div class="head">
-                                <div class="imoj"> <i class="fa-regular fa-thumbs-up">
-                                    </i><i class="fa-solid fa-heart"></i><i
-                                        class="fa-regular fa-face-surprise"></i><span class="ttt">9999</span></div>
-                                <div class="coment">
-                                    <div class="num">15</div>
-                                    <span>Comment</span>
-                                </div>
-                            </div>
-                            <hr>
-                            <div class="center">
-                                <i class="fa-regular fa-thumbs-up like"></i><span>Like</span>
-                                <i class="fa-regular fa-message"></i><span>Coment</span>
-                                <i class="fa-solid fa-share"></i><span>Share</span>
-                            </div>
-                            <hr>
-                            <div class="foot">
-                                <form action="">
-                                    <input type="text" placeholder="Submit your first comment">
-                                    <div class="submit">Submit</div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="images/news5.jpg" alt="">
-                    <p>Exciting News for iPhone Fans: The Release of iPhone 15 is Set for May! Stay Tuned for the
-                        Official Launch Date and Get Ready to Experience the Latest Advancements in Apple Technology.
-                    </p>
-                    <div class="info">
-                        <div class="interaction">
-                            <hr>
-                            <div class="head">
-                                <div class="imoj"> <i class="fa-regular fa-thumbs-up">
-                                    </i><i class="fa-solid fa-heart"></i><i
-                                        class="fa-regular fa-face-surprise"></i><span class="ttt">5325</span></div>
-                                <div class="coment">
-                                    <div class="num">15</div>
-                                    <span>Comment</span>
-                                </div>
-                            </div>
-                            <hr>
-                            <div class="center">
-                                <i class="fa-regular fa-thumbs-up like"></i><span>Like</span>
-                                <i class="fa-regular fa-message"></i><span>Coment</span>
-                                <i class="fa-solid fa-share"></i><span>Share</span>
-                            </div>
-                            <hr>
-                            <div class="foot">
-                                <form action="">
-                                    <input type="text" placeholder="Submit your first comment">
-                                    <div class="submit">Submit</div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="images/news6.jpg" alt="">
-                    <p>Exciting News for iPhone Fans: The Release of iPhone 15 is Set for May! Stay Tuned for the
-                        Official Launch Date and Get Ready to Experience the Latest Advancements in Apple Technology.
-                    </p>
-                    <div class="info">
-                        <div class="interaction">
-                            <hr>
-                            <div class="head">
-                                <div class="imoj"> <i class="fa-regular fa-thumbs-up">
-                                    </i><i class="fa-solid fa-heart"></i><i
-                                        class="fa-regular fa-face-surprise"></i><span class="ttt">1567</span></div>
-                                <div class="coment">
-                                    <div class="num">15</div>
-                                    <span>Comment</span>
-                                </div>
-                            </div>
-                            <hr>
-                            <div class="center">
-                                <i class="fa-regular fa-thumbs-up like"></i><span>Like</span>
-                                <i class="fa-regular fa-message"></i><span>Coment</span>
-                                <i class="fa-solid fa-share"></i><span>Share</span>
-                            </div>
-                            <hr>
-                            <div class="foot">
-                                <form action="">
-                                    <input type="text" placeholder="Submit your first comment">
-                                    <div class="submit">Submit</div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="images/news2.jpg" alt="">
-                    <p>Exciting News for iPhone Fans: The Release of iPhone 15 is Set for May! Stay Tuned for the
-                        Official Launch Date and Get Ready to Experience the Latest Advancements in Apple Technology.
-                    </p>
-                    <div class="info">
-                        <div class="interaction">
-                            <hr>
-                            <div class="head">
-                                <div class="imoj"> <i class="fa-regular fa-thumbs-up">
-                                    </i><i class="fa-solid fa-heart"></i><i
-                                        class="fa-regular fa-face-surprise"></i><span class="ttt">456</span></div>
-                                <div class="coment">
-                                    <div class="num">15</div>
-                                    <span>Comment</span>
-                                </div>
-                            </div>
-                            <hr>
-                            <div class="center">
-                                <i class="fa-regular fa-thumbs-up like"></i><span>Like</span>
-                                <i class="fa-regular fa-message"></i><span>Coment</span>
-                                <i class="fa-solid fa-share"></i><span>Share</span>
-                            </div>
-                            <hr>
-                            <div class="foot">
-                                <form action="">
-                                    <input type="text" placeholder="Submit your first comment">
-                                    <div class="submit">Submit</div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="images/news4.png" alt="">
-                    <p>Exciting News for iPhone Fans: The Release of iPhone 15 is Set for May! Stay Tuned for the
-                        Official Launch Date and Get Ready to Experience the Latest Advancements in Apple Technology.
-                    </p>
-                    <div class="info">
-                        <div class="interaction">
-                            <hr>
-                            <div class="head">
-                                <div class="imoj"> <i class="fa-regular fa-thumbs-up">
-                                    </i><i class="fa-solid fa-heart"></i><i
-                                        class="fa-regular fa-face-surprise"></i><span class="ttt">141</span></div>
-                                <div class="coment">
-                                    <div class="num">15</div>
-                                    <span>Comment</span>
-                                </div>
-                            </div>
-                            <hr>
-                            <div class="center">
-                                <i class="fa-regular fa-thumbs-up like"></i><span>Like</span>
-                                <i class="fa-regular fa-message"></i><span>Coment</span>
-                                <i class="fa-solid fa-share"></i><span>Share</span>
-                            </div>
-                            <hr>
-                            <div class="foot">
-                                <form action="">
-                                    <input type="text" placeholder="Submit your first comment">
-                                    <div class="submit">Submit</div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="images/news3.jpg" alt="">
-                    <p>Exciting News for iPhone Fans: The Release of iPhone 15 is Set for May! Stay Tuned for the
-                        Official Launch Date and Get Ready to Experience the Latest Advancements in Apple Technology.
-                    </p>
-                    <div class="info">
-                        <div class="interaction">
-                            <hr>
-                            <div class="head">
-                                <div class="imoj"> <i class="fa-regular fa-thumbs-up">
-                                    </i><i class="fa-solid fa-heart"></i><i
-                                        class="fa-regular fa-face-surprise"></i><span class="ttt">55</span></div>
-                                <div class="coment">
-                                    <div class="num">15</div>
-                                    <span>Comment</span>
-                                </div>
-                            </div>
-                            <hr>
-                            <div class="center">
-                                <i class="fa-regular fa-thumbs-up like"></i><span>Like</span>
-                                <i class="fa-regular fa-message"></i><span>Coment</span>
-                                <i class="fa-solid fa-share"></i><span>Share</span>
-                            </div>
-                            <hr>
-                            <div class="foot">
-                                <form action="" method="POST">
-                                    <input type="text" placeholder="Submit your first comment">
-                                    <div class="submit">Submit</div>
+.header .link .icon {
+  width: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  cursor: pointer;
+}
 
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="footer" id="CONTACT">
-        <div class="container">
-            <div class="vovoovv">
-                <div class="top">
+.header .link .icon span {
+  background-color: #001e38;
+  margin-bottom: 5px;
+  height: 2px;
+  position: relative;
+}
 
-                    <div class="left">
-                        <div class="text dd">
-                            <h1>ABOUT</h1>
-                            <span>Company</span>
-                            <span>Community</span>
-                            <span>Careers</span>
-                        </div>
-                        <div class="text">
-                            <h1>PRODUCTS</h1>
-                            <span>Ipad</span>
-                            <span>Iphone</span>
-                            <span>Imac</span>
-                            <span>Iwatch</span>
-                        </div>
-                        <div class="text">
-                            <h1>HELP</h1>
-                            <span>Help</span>
-                            <span>Support</span>
-                            <span>Troubleshooting</span>
-                        </div>
-                    </div>
-                    <div class="right">
-                        <div class="logo">
-                            <img src="images/logo.png" alt="">
-                            <div class="text">Lorem ipsum dolor sit amet.</div>
-                        </div>
-                        <div class="icon">
-                            <i class="fa-brands fa-facebook-f"></i>
-                            <i class="fa-brands fa-twitter"></i>
-                            <i class="fa-brands fa-instagram"></i>
-                        </div>
-                    </div>
-                </div>
-                <hr>
-                <div class="butt">
-                    <div class="left">Copyright <i class="fa-regular fa-copyright"></i> 2023 All Right Reserved By OMAR
-                        EHAB
-                    </div>
-                    <div class="right">
-                        <i class="fa-brands fa-cc-visa"></i>
-                        <i class="fa-brands fa-cc-paypal"></i>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+.header .link .icon span:first-child {
+  width: 100%;
+}
 
-    <div class=" uuu "><i class=" fa-solid fa-angles-up "></i></div>
-    <script src=" script.js "></script>
-</body>
+.header .link .icon span:nth-child(2) {
+  width: 60%;
+  transition: 0.3s;
+}
 
-</html>
+.header .link .icon span:last-child {
+  width: 100%;
+}
+
+.header .link {
+  position: relative;
+}
+
+.header .link ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: #f6f6f6;
+  position: absolute;
+  border-radius: 10px;
+  right: 0;
+  min-width: 200px;
+  top: calc(100% + 15px);
+  display: none;
+  z-index: 5;
+}
+
+.header .link ul::before {
+  content: "";
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent transparent #f6f6f6 transparent;
+  position: absolute;
+  right: 5px;
+  top: -19px;
+}
+
+.header .link ul li a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  color: #333;
+  transition: 0.3s;
+}
+
+.header .link ul li a:hover {
+  padding-left: 25px;
+}
+
+.header .link ul li:not(:last-child) a {
+  border-bottom: 1px solid #ddd;
+}
+
+.show {
+  display: block !important;
+}
+
+.header .link-show a {
+  text-decoration: none;
+  color: #333;
+  padding: 15px;
+}
+
+.header .link-show a:hover {
+  color: #ffffff;
+}
+
+.custom-shape-divider-bottom-1678984849 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 106%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1678984849 svg {
+  position: relative;
+  display: block;
+  width: calc(165% + 1.3px);
+  height: 343px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1678984849 .shape-fill {
+  fill: #60f4a0;
+}
+
+.landing {
+  height: calc(100vh - 113px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  /* flex-direction: row; */
+}
+
+.intro-text {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+}
+
+.landing .intro-text h1 {
+  margin: 0;
+  font-size: 40px;
+  color: white;
+  width: 70%;
+}
+
+.landing .intro-text h1 span {
+  color: #60f4a0;
+  font-weight: bold;
+  font-size: 60px;
+}
+
+.landing .intro-text p {
+  font-size: 18px;
+  line-height: 2;
+  color: #ddd;
+  width: 60%;
+}
+
+.imgg {
+  width: 200px;
+  position: absolute;
+  bottom: 0;
+  right: 100px;
+}
+
+.landing img {
+  width: 260px;
+  transform: rotate(-20deg);
+  transition: transform 2s ease;
+  animation: rotate 3s linear infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform-origin: bottom right;
+    transform: rotate(0deg);
+  }
+  to {
+    transform-origin: 100px bottom -100px;
+    transform: rotate(360deg);
+  }
+}
+
+.ABOUT {
+  margin-top: -8px;
+  position: relative;
+}
+
+.ABOUT .container {
+  padding: 20px;
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+@media (max-width: 1200px) {
+  .ABOUT .container .cards-About {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    flex-direction: column!;
+  }
+  .ABOUT .container .cards-About .card img {
+    width: 100% !important;
+  }
+}
+
+.main-title {
+  margin: 10px;
+  background-color: #001e38;
+  border-radius: 15px;
+  color: #ddd;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 20px;
+  z-index: 1;
+}
+
+.ABOUT .container .main-title h1 {
+  background-color: #60f4a0;
+  /* padding: 5px; */
+  border-radius: 15px;
+  color: #001e38;
+  font-size: 50px;
+  width: 100%;
+}
+
+.ABOUT .container .cards-About {
+  display: flex;
+  justify-content: space-around;
+  color: #ddd;
+  font-size: 20px;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+  z-index: 1;
+}
+
+.ABOUT .container .cards-About .card {
+  background-color: #001e38;
+  border-radius: 15px;
+  padding: 5px;
+  margin: 20px;
+  transition: 0.5s ease;
+  width: 300px;
+  height: 400px;
+}
+
+.ABOUT .container .cards-About .card:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.ABOUT .container .cards-About .card img {
+  width: 300px;
+  border-radius: 15px;
+}
+
+.custom-shape-divider-top-1679078634 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1679078634 svg {
+  position: relative;
+  display: block;
+  width: calc(196% + 1.3px);
+  height: 327px;
+}
+
+.custom-shape-divider-top-1679078634 .shape-fill {
+  fill: #60f4a0;
+}
+
+.FEATURES {
+  /* height: 100vh; */
+  position: relative;
+}
+
+.FEATURES .container {
+  padding: 0 20px !important;
+  margin-top: -25px;
+  /* margin-top: -25px; */
+}
+
+.main-title h1 {
+  color: #001e38;
+  background-color: #60f4a0;
+  width: 100%;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 50px;
+}
+
+.card-FEATURES {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.card-FEATURES .carddd {
+  width: 300px;
+  height: 300px;
+  background-color: #001e38;
+  margin: 30px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 15px;
+  color: white;
+  position: relative;
+}
+
+.card-FEATURES .carddd p {
+  font-size: 20px;
+}
+
+.card-FEATURES .carddd a {
+  font-size: 50px;
+  position: absolute;
+  background-color: white;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  border-radius: 50%;
+  top: -55px;
+  text-decoration: none;
+  color: #001e38;
+}
+
+.show {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+
+.disddd {
+  display: none;
+}
+
+.ONLINE .container {
+  padding: 20px;
+  margin-top: -15px;
+}
+
+.Kinds {
+  background-color: #001e38;
+  border-radius: 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Kinds .Lists {
+  align-items: center;
+  justify-content: space-around;
+  background-color: #60f4a0;
+  /* width: 100%; */
+  width: 90%;
+  border-radius: 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  margin: 15px;
+  padding: 15px;
+  padding-top: 15px;
+}
+
+.one,
+.two,
+.three,
+.four,
+.zero {
+  background-color: #001e38;
+  color: white;
+  border-radius: 20px;
+  padding: 10px;
+  width: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.one:hover,
+.two:hover,
+.three:hover,
+.four:hover,
+.zero:hover {
+  color: #60f4a0;
+}
+
+.boxes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.boxes .box img {
+  width: 50%;
+}
+
+.boxes .box .titlee {
+  margin-top: 55px;
+}
+
+.boxes .box .immm {
+  height: 50%;
+  margin-bottom: 15px;
+}
+
+.boxes .box {
+  background-color: #60f4a0;
+  border-radius: 15px;
+  width: 300px;
+  height: 340px;
+  margin: 15px;
+  padding: 15px;
+}
+
+.boxes .box .info {
+  background-color: #001e38;
+  color: #ddd;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 15px;
+}
+
+.boxes .box .info h4 {
+  cursor: pointer;
+  font-size: 110%;
+}
+
+.boxes .box .info h4:hover {
+  color: #60f4a0;
+}
+
+.scroll {
+  background-color: #60f4a0;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 15px;
+}
+
+.scroll .icon {
+  display: flex;
+  flex-direction: row;
+  font-size: 35px;
+  color: #001e38;
+}
+
+.ones,
+.twos,
+.threes {
+  margin: 5px;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.ones:hover,
+.twos:hover,
+.threes:hover {
+  color: white;
+}
+
+.twoo {
+  display: none;
+}
+
+.threee {
+  display: none;
+}
+
+.showw {
+  display: flex;
+}
+
+.disss {
+  display: none;
+}
+
+.cooo,
+.dddds {
+  position: absolute;
+  background-color: red;
+  border-radius: 50%;
+  text-align: center;
+  color: white;
+  top: 30px;
+  right: 15px;
+  width: 15px;
+  height: 15px;
+  font-size: 10px;
+  display: none;
+}
+
+.dddds {
+  top: px;
+  right: 151px;
+}
+
+.header .container {
+  position: relative;
+}
+
+.NEWS .container .main-title p {
+  text-align: center;
+}
+
+.NEWS .container .cards-About {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.NEWS .container .cards-About .card {
+  overflow: hidden;
+  width: 350px;
+  height: 480px;
+  background-color: #001e38;
+  border-radius: 15px;
+  color: #ddd;
+  margin: 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.NEWS .container .cards-About .card p {
+  margin: 5px;
+}
+
+.NEWS .container .cards-About .card img {
+  width: 400px !important;
+  height: 235px !important;
+  margin-top: -20px;
+}
+
+.NEWS .container .cards-About .card .info .interaction .head .imoj span {
+  margin-left: 5px;
+  font-size: 17px;
+}
+
+.NEWS .container .cards-About .card .info .interaction .head .imoj {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.NEWS .container .cards-About .card .info .interaction .head {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+  margin: 15px;
+}
+
+.NEWS .container .cards-About .card .info .interaction .head .fa-thumbs-up {
+  color: blue;
+  font-size: 25px;
+}
+
+.NEWS .container .cards-About .card .info .interaction .head .fa-heart {
+  font-size: 25px;
+  color: red;
+  margin-left: -5px;
+}
+
+.NEWS .container .cards-About .card .info .interaction .head .fa-face-surprise {
+  font-size: 25px;
+  color: yellow;
+  margin-left: -5px;
+}
+
+.NEWS .container .cards-About .card .info .interaction .head .coment {
+  display: flex;
+  flex-direction: row;
+}
+
+.NEWS .container .cards-About .card .info .interaction .head .coment .num {
+  padding: 0 5px;
+}
+
+.NEWS .container .cards-About .card .info .interaction .center {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  text-align: center;
+}
+
+.NEWS .container .cards-About .card .info .interaction .center i {
+  color: #60f4a0;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.NEWS .container .cards-About .card .info .interaction .center span {
+  color: #60f4a0;
+  margin-left: -50px;
+  cursor: pointer;
+}
+
+.NEWS .container .cards-About .card .info .interaction .foot form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+}
+
+.NEWS
+  .container
+  .cards-About
+  .card
+  .info
+  .interaction
+  .foot
+  input[type="text"] {
+  width: 70%;
+  border-radius: 5px;
+  padding: 5px;
+  border: 0;
+  outline: none;
+  font-size: 20px;
+  background-color: #0a3154;
+  color: white !important;
+}
+
+.NEWS .container .cards-About .card .info .interaction .foot .submit {
+  background-color: #60f4a0;
+  color: #001e38;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.NEWS .container .cards-About .card .info .interaction .foot .submit:hover {
+  background-color: #0a3154;
+  color: white;
+}
+
+.footer {
+  margin-top: 45px;
+}
+
+.footer .container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: -25px;
+}
+
+.footer .container .top,
+.footer .container .butt {
+  background-color: #001e38;
+  border-radius: 15px;
+  padding: 0 !important;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.footer .container .top .left {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  flex-wrap: wrap;
+}
+
+.footer .container .top .left .text {
+  display: flex;
+  flex-direction: column;
+  margin: 0 35px;
+  width: 200px;
+}
+
+.footer .container .top .left .text h1 {
+  color: white;
+  font-size: 35px;
+}
+
+.footer .container .top .left .text span {
+  color: #60f4a0;
+  font-size: 25px;
+  transition: 0.5s;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.footer .container .top .left .text span:hover {
+  color: white;
+}
+
+.footer .container .top .right {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer .container .top .right .logo {
+  width: 250px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.footer .container .top .right .logo .text {
+  color: #f6f6f6;
+  text-align: center;
+  align-items: center;
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+.footer .container .top .right .logo img {
+  width: 90%;
+  margin-left: 25%;
+}
+
+.footer .container .top .right .icon i {
+  font-size: 25px;
+  color: #001e38;
+  margin: 15px;
+  width: 25px;
+  height: 25px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  padding: 10px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.footer .container .top .right .icon {
+  margin-top: 15px;
+  width: 250px;
+}
+
+.footer .container .top .right .icon i:hover {
+  background: #0a3154;
+  color: #60f4a0;
+}
+
+.footer .container .butt {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer .container .butt .left {
+  padding: 15px;
+  color: white;
+  font-size: 25px;
+}
+
+.footer .container .butt .right {
+  padding: 15px;
+  color: #60f4a0;
+  font-size: 35px;
+}
